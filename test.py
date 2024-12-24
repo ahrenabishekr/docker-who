@@ -58,3 +58,4 @@ def test_calculator_divide_by_zero(mock_print, mock_input):
 def test_calculator_exit(mock_print, mock_input):
     calculator()
     mock_print.assert_any_call("Exiting the calculator. Goodbye!")
+    
